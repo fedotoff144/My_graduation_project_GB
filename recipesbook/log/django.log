@@ -1,12 +1,11 @@
-Watching for file changes with StatReloader
-"GET /about/ HTTP/1.1" 200 8
-"GET / HTTP/1.1" 200 12
-Watching for file changes with StatReloader
-"GET /about HTTP/1.1" 301 0
-Error in about page: division by zero
+INFO 2024-07-22 21:33:30,144 autoreload 3856 13248 Watching for file changes with StatReloader
+INFO 2024-07-22 21:33:39,459 basehttp 3856 9396 "GET / HTTP/1.1" 200 12
+ERROR 2024-07-22 21:33:47,966 views 3856 9396 Error in about page: division by zero
 Traceback (most recent call last):
   File "D:\GeekBrains\My_graduation_project_GB\recipesbook\myapp\views.py", line 19, in about
     res = 1/0
           ~^~
 ZeroDivisionError: division by zero
-"GET /about/ HTTP/1.1" 200 21
+INFO 2024-07-22 21:33:47,969 basehttp 3856 9396 "GET /about/ HTTP/1.1" 200 21
+
+
