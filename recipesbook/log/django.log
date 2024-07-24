@@ -68,3 +68,13 @@ ZeroDivisionError: division by zero
 INFO 2024-07-24 10:37:55,915 basehttp 2688 18760 "GET /about/ HTTP/1.1" 200 21
 INFO 2024-07-24 10:38:55,619 autoreload 1452 12236 Watching for file changes with StatReloader
 INFO 2024-07-24 10:40:16,441 autoreload 10820 20000 Watching for file changes with StatReloader
+INFO 2024-07-24 16:21:10,727 autoreload 17852 8480 Watching for file changes with StatReloader
+ERROR 2024-07-24 16:21:28,244 views 17852 13584 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\GeekBrains\My_graduation_project_GB\recipesbook\myapp\views.py", line 20, in about
+    res = 1/0
+          ~^~
+ZeroDivisionError: division by zero
+INFO 2024-07-24 16:21:28,246 basehttp 17852 13584 "GET /about/ HTTP/1.1" 200 21
+INFO 2024-07-24 16:21:32,594 views 17852 13584 Index page accessed
+INFO 2024-07-24 16:21:32,596 basehttp 17852 13584 "GET / HTTP/1.1" 200 12
