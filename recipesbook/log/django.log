@@ -43,3 +43,28 @@ INFO 2024-07-23 22:03:13,486 autoreload 1496 15444 Watching for file changes wit
 INFO 2024-07-23 22:03:29,017 views 1496 10288 Index page accessed
 INFO 2024-07-23 22:03:29,018 basehttp 1496 10288 "GET / HTTP/1.1" 200 12
 INFO 2024-07-23 22:16:12,882 autoreload 13820 11700 Watching for file changes with StatReloader
+INFO 2024-07-24 09:47:40,047 autoreload 19668 9756 Watching for file changes with StatReloader
+ERROR 2024-07-24 09:48:02,462 views 19668 20148 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\GeekBrains\My_graduation_project_GB\recipesbook\myapp\views.py", line 20, in about
+    res = 1/0
+          ~^~
+ZeroDivisionError: division by zero
+INFO 2024-07-24 09:48:02,463 basehttp 19668 20148 "GET /about/ HTTP/1.1" 200 21
+INFO 2024-07-24 09:48:06,440 views 19668 20148 Index page accessed
+INFO 2024-07-24 09:48:06,442 basehttp 19668 20148 "GET / HTTP/1.1" 200 12
+INFO 2024-07-24 10:36:16,225 autoreload 20092 16016 Watching for file changes with StatReloader
+INFO 2024-07-24 10:36:32,020 autoreload 10036 13688 Watching for file changes with StatReloader
+INFO 2024-07-24 10:37:03,972 autoreload 4392 20148 Watching for file changes with StatReloader
+INFO 2024-07-24 10:37:32,837 autoreload 2688 5376 Watching for file changes with StatReloader
+INFO 2024-07-24 10:37:50,327 views 2688 18760 Index page accessed
+INFO 2024-07-24 10:37:50,329 basehttp 2688 18760 "GET / HTTP/1.1" 200 12
+ERROR 2024-07-24 10:37:55,912 views 2688 18760 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\GeekBrains\My_graduation_project_GB\recipesbook\myapp\views.py", line 20, in about
+    res = 1/0
+          ~^~
+ZeroDivisionError: division by zero
+INFO 2024-07-24 10:37:55,915 basehttp 2688 18760 "GET /about/ HTTP/1.1" 200 21
+INFO 2024-07-24 10:38:55,619 autoreload 1452 12236 Watching for file changes with StatReloader
+INFO 2024-07-24 10:40:16,441 autoreload 10820 20000 Watching for file changes with StatReloader
