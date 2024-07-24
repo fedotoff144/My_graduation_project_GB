@@ -92,3 +92,24 @@ Traceback (most recent call last):
           ~^~
 ZeroDivisionError: division by zero
 INFO 2024-07-24 16:26:12,888 basehttp 12204 20288 "GET /about/ HTTP/1.1" 200 21
+INFO 2024-07-24 21:15:24,435 autoreload 11772 16540 Watching for file changes with StatReloader
+INFO 2024-07-24 21:15:30,119 views 11772 14416 Index page accessed
+INFO 2024-07-24 21:15:30,119 basehttp 11772 14416 "GET / HTTP/1.1" 200 12
+WARNING 2024-07-24 21:15:30,226 log 11772 14416 Not Found: /favicon.ico
+WARNING 2024-07-24 21:15:30,227 basehttp 11772 14416 "GET /favicon.ico HTTP/1.1" 404 2443
+WARNING 2024-07-24 21:15:54,887 log 11772 16708 Not Found: /favicon.ico
+WARNING 2024-07-24 21:15:54,887 basehttp 11772 16708 "GET /favicon.ico HTTP/1.1" 404 2443
+INFO 2024-07-24 21:28:06,898 autoreload 11680 5696 Watching for file changes with StatReloader
+INFO 2024-07-24 21:28:35,232 views 11680 19732 Index page accessed
+INFO 2024-07-24 21:28:35,233 basehttp 11680 19732 "GET / HTTP/1.1" 200 12
+ERROR 2024-07-24 21:28:40,954 views 11680 19732 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\GeekBrains\My_graduation_project_GB\recipesbook\myapp\views.py", line 20, in about
+    res = 1/0
+          ~^~
+ZeroDivisionError: division by zero
+INFO 2024-07-24 21:28:40,956 basehttp 11680 19732 "GET /about/ HTTP/1.1" 200 21
+INFO 2024-07-24 23:17:15,560 autoreload 11156 15640 Watching for file changes with StatReloader
+INFO 2024-07-24 23:57:13,927 autoreload 20600 1324 Watching for file changes with StatReloader
+INFO 2024-07-24 23:57:19,790 views 20600 4616 Index page accessed
+INFO 2024-07-24 23:57:19,790 basehttp 20600 4616 "GET / HTTP/1.1" 200 12
