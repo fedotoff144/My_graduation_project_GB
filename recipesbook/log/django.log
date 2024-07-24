@@ -9,3 +9,37 @@ ZeroDivisionError: division by zero
 INFO 2024-07-22 21:33:47,969 basehttp 3856 9396 "GET /about/ HTTP/1.1" 200 21
 
 
+INFO 2024-07-23 21:26:26,782 autoreload 1456 17724 Watching for file changes with StatReloader
+INFO 2024-07-23 21:29:35,468 autoreload 1220 14556 Watching for file changes with StatReloader
+INFO 2024-07-23 21:29:43,633 views 1220 3004 Index page accessed
+INFO 2024-07-23 21:29:43,633 basehttp 1220 3004 "GET / HTTP/1.1" 200 12
+WARNING 2024-07-23 21:29:43,731 log 1220 3004 Not Found: /favicon.ico
+WARNING 2024-07-23 21:29:43,732 basehttp 1220 3004 "GET /favicon.ico HTTP/1.1" 404 2443
+INFO 2024-07-23 21:29:51,251 basehttp 1220 3004 "GET /about HTTP/1.1" 301 0
+ERROR 2024-07-23 21:29:51,259 views 1220 17920 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\GeekBrains\My_graduation_project_GB\recipesbook\myapp\views.py", line 20, in about
+    res = 1/0
+          ~^~
+ZeroDivisionError: division by zero
+INFO 2024-07-23 21:29:51,261 basehttp 1220 17920 "GET /about/ HTTP/1.1" 200 21
+INFO 2024-07-23 21:40:47,434 autoreload 8488 15680 Watching for file changes with StatReloader
+INFO 2024-07-23 21:55:35,878 autoreload 8488 15680 D:\GeekBrains\My_graduation_project_GB\recipesbook\recipesbook\settings.py changed, reloading.
+INFO 2024-07-23 21:55:36,250 autoreload 10340 17928 Watching for file changes with StatReloader
+INFO 2024-07-23 21:56:35,476 autoreload 10340 17928 D:\GeekBrains\My_graduation_project_GB\recipesbook\myapp\views.py changed, reloading.
+INFO 2024-07-23 21:56:35,862 autoreload 13696 17612 Watching for file changes with StatReloader
+INFO 2024-07-23 21:56:46,652 views 13696 13656 Index page accessed
+INFO 2024-07-23 21:56:46,653 basehttp 13696 13656 "GET / HTTP/1.1" 200 58
+INFO 2024-07-23 21:59:20,093 views 13696 3780 Index page accessed
+INFO 2024-07-23 21:59:20,095 basehttp 13696 3780 "GET / HTTP/1.1" 200 58
+WARNING 2024-07-23 21:59:20,182 log 13696 3780 Not Found: /favicon.ico
+WARNING 2024-07-23 21:59:20,183 basehttp 13696 3780 "GET /favicon.ico HTTP/1.1" 404 2447
+INFO 2024-07-23 22:00:06,725 views 13696 10988 Index page accessed
+INFO 2024-07-23 22:00:06,726 basehttp 13696 10988 "GET / HTTP/1.1" 200 58
+WARNING 2024-07-23 22:00:06,822 log 13696 10988 Not Found: /favicon.ico
+WARNING 2024-07-23 22:00:06,822 basehttp 13696 10988 "GET /favicon.ico HTTP/1.1" 404 2447
+INFO 2024-07-23 22:03:13,083 autoreload 13696 17612 D:\GeekBrains\My_graduation_project_GB\recipesbook\myapp\views.py changed, reloading.
+INFO 2024-07-23 22:03:13,486 autoreload 1496 15444 Watching for file changes with StatReloader
+INFO 2024-07-23 22:03:29,017 views 1496 10288 Index page accessed
+INFO 2024-07-23 22:03:29,018 basehttp 1496 10288 "GET / HTTP/1.1" 200 12
+INFO 2024-07-23 22:16:12,882 autoreload 13820 11700 Watching for file changes with StatReloader
