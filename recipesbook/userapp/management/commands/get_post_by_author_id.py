@@ -24,5 +24,5 @@ class Command(BaseCommand):
         pk = kwargs.get('pk')
         posts = Post.objects.filter(author__pk=pk)
         intro = f'All posts:\n'
-        text = '\n'.join(post.content for post in posts)
+        text = '\n'.join(post.get_summary() for post in posts)
         self.stdout.write(f'{intro}{text}')

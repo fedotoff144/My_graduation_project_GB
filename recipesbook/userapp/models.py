@@ -41,3 +41,9 @@ class Post(models.Model):
 
     def __str__(self):
         return f'Title is {self.title}'
+
+    def get_summary(self):
+        words = self.content.split()
+        return f"{' '.join(words[:5])} ..."
+
+

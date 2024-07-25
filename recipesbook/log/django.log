@@ -113,3 +113,21 @@ INFO 2024-07-24 23:17:15,560 autoreload 11156 15640 Watching for file changes wi
 INFO 2024-07-24 23:57:13,927 autoreload 20600 1324 Watching for file changes with StatReloader
 INFO 2024-07-24 23:57:19,790 views 20600 4616 Index page accessed
 INFO 2024-07-24 23:57:19,790 basehttp 20600 4616 "GET / HTTP/1.1" 200 12
+INFO 2024-07-25 11:08:09,449 autoreload 5648 3920 Watching for file changes with StatReloader
+WARNING 2024-07-25 11:08:15,665 log 5648 14676 Not Found: /favicon.ico
+WARNING 2024-07-25 11:08:15,666 basehttp 5648 14676 "GET /favicon.ico HTTP/1.1" 404 2443
+ERROR 2024-07-25 11:08:24,527 views 5648 14676 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\GeekBrains\My_graduation_project_GB\recipesbook\myapp\views.py", line 20, in about
+    res = 1/0
+          ~^~
+ZeroDivisionError: division by zero
+INFO 2024-07-25 11:08:24,530 basehttp 5648 14676 "GET /about/ HTTP/1.1" 200 21
+INFO 2024-07-25 11:09:13,483 autoreload 14768 7832 Watching for file changes with StatReloader
+ERROR 2024-07-25 11:09:18,283 views 14768 11232 Error in about page: division by zero
+Traceback (most recent call last):
+  File "D:\GeekBrains\My_graduation_project_GB\recipesbook\myapp\views.py", line 20, in about
+    res = 1/0
+          ~^~
+ZeroDivisionError: division by zero
+INFO 2024-07-25 11:09:18,283 basehttp 14768 11232 "GET /about/ HTTP/1.1" 200 21
