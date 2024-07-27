@@ -131,3 +131,42 @@ Traceback (most recent call last):
           ~^~
 ZeroDivisionError: division by zero
 INFO 2024-07-25 11:09:18,283 basehttp 14768 11232 "GET /about/ HTTP/1.1" 200 21
+INFO 2024-07-27 23:05:26,967 autoreload 19828 13908 Watching for file changes with StatReloader
+INFO 2024-07-28 00:09:23,579 autoreload 17908 18560 Watching for file changes with StatReloader
+INFO 2024-07-28 00:18:54,893 autoreload 17908 18560 D:\GeekBrains\My_graduation_project_GB\recipesbook\recipesbook\urls.py changed, reloading.
+INFO 2024-07-28 00:18:55,563 autoreload 4340 18500 Watching for file changes with StatReloader
+INFO 2024-07-28 00:19:03,852 autoreload 11808 15280 Watching for file changes with StatReloader
+INFO 2024-07-28 00:20:38,088 autoreload 17108 21184 Watching for file changes with StatReloader
+INFO 2024-07-28 00:21:07,857 views 17108 9656 Index page accessed
+INFO 2024-07-28 00:21:07,858 basehttp 17108 9656 "GET / HTTP/1.1" 200 12
+WARNING 2024-07-28 00:21:08,107 log 17108 9656 Not Found: /favicon.ico
+WARNING 2024-07-28 00:21:08,107 basehttp 17108 9656 "GET /favicon.ico HTTP/1.1" 404 2548
+WARNING 2024-07-28 00:21:20,863 log 17108 12284 Not Found: /favicon.ico
+WARNING 2024-07-28 00:21:20,865 basehttp 17108 12284 "GET /favicon.ico HTTP/1.1" 404 2552
+INFO 2024-07-28 00:21:21,002 views 17108 12284 Index page accessed
+INFO 2024-07-28 00:21:21,004 basehttp 17108 12284 "GET / HTTP/1.1" 200 12
+INFO 2024-07-28 00:21:23,104 views 17108 12284 Index page accessed
+INFO 2024-07-28 00:21:23,105 basehttp 17108 12284 "GET / HTTP/1.1" 200 12
+INFO 2024-07-28 00:21:24,908 views 17108 12284 Index page accessed
+INFO 2024-07-28 00:21:24,909 basehttp 17108 12284 "GET / HTTP/1.1" 200 12
+WARNING 2024-07-28 00:21:42,362 log 17108 12284 Not Found: /temp/
+WARNING 2024-07-28 00:21:42,363 basehttp 17108 12284 "GET /temp/ HTTP/1.1" 404 2775
+INFO 2024-07-28 00:22:06,637 basehttp 17108 12284 "GET /temp/hello HTTP/1.1" 301 0
+INFO 2024-07-28 00:22:06,656 basehttp 17108 8960 "GET /temp/hello/ HTTP/1.1" 200 26
+INFO 2024-07-28 00:23:27,713 basehttp 17108 9656 "GET /temp/hello2 HTTP/1.1" 301 0
+INFO 2024-07-28 00:23:28,019 basehttp 17108 13648 "GET /temp/hello2/ HTTP/1.1" 200 23
+INFO 2024-07-28 00:32:38,645 autoreload 17108 21184 D:\GeekBrains\My_graduation_project_GB\recipesbook\tmpltapp\urls.py changed, reloading.
+INFO 2024-07-28 00:32:39,127 autoreload 19616 19476 Watching for file changes with StatReloader
+INFO 2024-07-28 00:51:14,990 autoreload 1992 16792 Watching for file changes with StatReloader
+INFO 2024-07-28 00:51:40,490 autoreload 1992 16792 D:\GeekBrains\My_graduation_project_GB\recipesbook\tmpltapp\urls.py changed, reloading.
+INFO 2024-07-28 00:51:40,859 autoreload 2612 21296 Watching for file changes with StatReloader
+INFO 2024-07-28 00:51:47,311 autoreload 15652 11856 Watching for file changes with StatReloader
+INFO 2024-07-28 00:51:52,851 basehttp 15652 10760 "GET /temp/hello2/ HTTP/1.1" 200 23
+INFO 2024-07-28 00:52:25,825 basehttp 15652 10760 "GET /temp/posts/2006/006/gruth HTTP/1.1" 301 0
+INFO 2024-07-28 00:52:25,832 basehttp 15652 17500 "GET /temp/posts/2006/006/gruth/ HTTP/1.1" 200 167
+INFO 2024-07-28 00:52:41,153 basehttp 15652 17500 "GET /temp/posts/2006/6000/gruth/ HTTP/1.1" 200 170
+WARNING 2024-07-28 00:53:39,777 log 15652 3588 Not Found: /temp/posts/20088/07/_-++--(/75_+/ghg
+WARNING 2024-07-28 00:53:39,778 basehttp 15652 3588 "GET /temp/posts/20088/07/_-++--(/75_+/ghg HTTP/1.1" 404 3504
+INFO 2024-07-28 00:53:57,215 basehttp 15652 3588 "GET /temp/posts/20088/07/fytfuhfhuy HTTP/1.1" 301 0
+INFO 2024-07-28 00:53:57,953 basehttp 15652 10904 "GET /temp/posts/20088/07/fytfuhfhuy/ HTTP/1.1" 200 173
+INFO 2024-07-28 00:59:03,374 basehttp 15652 10904 - Broken pipe from ('192.168.1.134', 39364)
