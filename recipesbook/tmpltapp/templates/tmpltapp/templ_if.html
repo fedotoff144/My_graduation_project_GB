@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Шаблон с ветвлениямми</title>
+</head>
+<body>
+    {% if message %}
+        <p>You can read the message: <br>{{ message }}</p>
+    {% endif %}
+
+    <p>You can read {{ number }}
+    {% if number == 1 %}
+        post
+    {% elif number >= 2 and number <= 4 %}
+        POST
+    {% else %}
+        posts
+    {% endif %}
+    </p>
+</body>
+</html>
