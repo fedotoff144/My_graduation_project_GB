@@ -217,3 +217,11 @@ INFO 2024-07-28 23:11:19,211 autoreload 11496 1680 Watching for file changes wit
 INFO 2024-07-28 23:11:29,926 basehttp 11496 12928 "GET / HTTP/1.1" 200 222
 INFO 2024-07-28 23:16:36,292 autoreload 11496 1680 D:\GeekBrains\My_graduation_project_GB\recipesbook\tmpltapp\models.py changed, reloading.
 INFO 2024-07-28 23:16:36,657 autoreload 17384 15152 Watching for file changes with StatReloader
+INFO 2024-07-29 07:57:38,611 autoreload 4124 21328 Watching for file changes with StatReloader
+WARNING 2024-07-29 07:57:52,749 log 4124 17284 Not Found: /about/
+WARNING 2024-07-29 07:57:52,750 basehttp 4124 17284 "GET /about/ HTTP/1.1" 404 2415
+INFO 2024-07-29 07:57:58,509 basehttp 4124 17284 "GET / HTTP/1.1" 200 222
+INFO 2024-07-29 14:13:15,769 autoreload 16104 4976 Watching for file changes with StatReloader
+WARNING 2024-07-29 14:13:33,669 log 16104 2644 Not Found: /about/
+WARNING 2024-07-29 14:13:33,669 basehttp 16104 2644 "GET /about/ HTTP/1.1" 404 2415
+INFO 2024-07-29 14:13:41,064 basehttp 16104 2644 "GET / HTTP/1.1" 200 222
