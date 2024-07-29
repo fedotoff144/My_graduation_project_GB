@@ -6,7 +6,9 @@ from .views import (year_post,
                     my_view,
                     TemplIf,
                     view_for,
-                    index, about)
+                    index, about,
+                    author_posts,
+                    post_full)
 
 urlpatterns = [
     path('hello/', hello, name='hello'),
@@ -19,4 +21,6 @@ urlpatterns = [
     path('for/', view_for, name='view_for'),
     path('index/', index, name='index'),
     path('about/', about, name='about'),
+    path('author/<int:author_id>/', author_posts, name='author_posts'),
+    path('post/<int:post_id>/', post_full, name='post_full'),
 ]
