@@ -317,3 +317,8 @@ INFO 2024-07-29 15:59:13,285 basehttp 9712 20104 "GET /temp/post/40/ HTTP/1.1" 2
 INFO 2024-07-29 15:59:16,445 basehttp 9712 20104 "GET /temp/post/37/ HTTP/1.1" 200 715
 INFO 2024-07-29 16:00:10,886 basehttp 9712 20104 "GET /temp/post/10 HTTP/1.1" 301 0
 INFO 2024-07-29 16:00:10,900 basehttp 9712 20076 "GET /temp/post/10/ HTTP/1.1" 200 709
+INFO 2024-08-06 22:27:41,122 autoreload 8752 3496 Watching for file changes with StatReloader
+INFO 2024-08-06 22:29:52,485 autoreload 18140 276 Watching for file changes with StatReloader
+INFO 2024-08-06 22:29:54,849 basehttp 18140 8392 "GET / HTTP/1.1" 200 222
+WARNING 2024-08-06 22:29:54,981 log 18140 8392 Not Found: /favicon.ico
+WARNING 2024-08-06 22:29:54,981 basehttp 18140 8392 "GET /favicon.ico HTTP/1.1" 404 2430
