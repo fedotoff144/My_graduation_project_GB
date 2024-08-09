@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'myapp',
     'userapp',
     'tmpltapp',
+    'formsapp',
 ]
 
 MIDDLEWARE = [
@@ -121,6 +122,10 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
@@ -155,6 +160,11 @@ LOGGING = {
             'level': 'INFO',
         },
         'myapp': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'formsapp': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,

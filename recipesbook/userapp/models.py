@@ -45,5 +45,3 @@ class Post(models.Model):
     def get_summary(self):
         words = self.content.split()
         return f"{' '.join(words[:5])} ..."
-
-
