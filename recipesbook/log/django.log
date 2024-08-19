@@ -76,3 +76,133 @@ INFO 2024-08-09 16:33:01,334 basehttp 13812 8076 "POST /forms/upload/ HTTP/1.1" 
 INFO 2024-08-09 16:33:45,211 basehttp 13812 8076 "POST /forms/upload/ HTTP/1.1" 200 607
 INFO 2024-08-09 16:34:21,879 basehttp 13812 8076 "POST /forms/upload/ HTTP/1.1" 200 607
 INFO 2024-08-09 16:34:32,513 basehttp 13812 8076 "POST /forms/upload/ HTTP/1.1" 200 607
+INFO 2024-08-19 22:35:15,774 autoreload 6732 2412 Watching for file changes with StatReloader
+INFO 2024-08-19 22:35:44,362 autoreload 10664 3724 Watching for file changes with StatReloader
+INFO 2024-08-19 22:35:51,673 basehttp 10664 11612 "GET / HTTP/1.1" 200 222
+WARNING 2024-08-19 22:35:51,817 log 10664 11612 Not Found: /favicon.ico
+WARNING 2024-08-19 22:35:51,818 basehttp 10664 11612 "GET /favicon.ico HTTP/1.1" 404 2532
+INFO 2024-08-19 22:47:06,462 autoreload 9744 14460 Watching for file changes with StatReloader
+INFO 2024-08-19 22:47:24,939 basehttp 9744 13040 "GET /admin HTTP/1.1" 301 0
+INFO 2024-08-19 22:47:24,958 basehttp 9744 9032 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-08-19 22:47:25,012 basehttp 9744 9032 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-08-19 22:47:25,207 basehttp 9744 8200 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-08-19 22:47:25,212 basehttp 9744 8200 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-08-19 22:47:25,216 basehttp 9744 14672 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-08-19 22:47:25,218 basehttp 9744 9032 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-08-19 22:47:25,220 basehttp 9744 14356 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-08-19 22:47:25,221 basehttp 9744 5940 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-08-19 22:47:25,221 basehttp 9744 8096 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-08-19 22:47:46,849 basehttp 9744 8096 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4319
+INFO 2024-08-19 22:49:24,880 autoreload 9744 14460 D:\GeekBrains\My_graduation_project_GB\recipesbook\recipesbook\settings.py changed, reloading.
+INFO 2024-08-19 22:49:25,291 autoreload 6996 14068 Watching for file changes with StatReloader
+INFO 2024-08-19 22:49:29,721 basehttp 6996 176 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4626
+INFO 2024-08-19 22:56:09,371 autoreload 12248 13980 Watching for file changes with StatReloader
+INFO 2024-08-19 22:56:19,442 basehttp 12248 15620 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4626
+INFO 2024-08-19 22:56:31,605 basehttp 12248 15620 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-08-19 22:56:31,617 basehttp 12248 15620 "GET /admin/ HTTP/1.1" 200 5944
+INFO 2024-08-19 22:56:31,659 basehttp 12248 15620 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-08-19 22:56:31,664 basehttp 12248 15692 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-08-19 22:56:31,664 basehttp 12248 15620 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-08-19 22:57:44,698 basehttp 12248 15620 "GET /admin/auth/user/ HTTP/1.1" 200 11914
+INFO 2024-08-19 22:57:44,722 basehttp 12248 15620 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-08-19 22:57:44,724 basehttp 12248 6668 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-08-19 22:57:44,726 basehttp 12248 15784 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-08-19 22:57:44,727 basehttp 12248 15692 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 22:57:44,728 basehttp 12248 15788 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-08-19 22:57:44,729 basehttp 12248 6668 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-08-19 22:57:44,729 basehttp 12248 15620 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-08-19 22:57:44,733 basehttp 12248 15784 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-08-19 22:57:44,734 basehttp 12248 6668 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-08-19 22:57:44,735 basehttp 12248 15620 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-08-19 22:57:44,738 basehttp 12248 15692 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-08-19 22:57:44,739 basehttp 12248 15776 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-08-19 22:57:44,744 basehttp 12248 15776 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-08-19 22:57:44,767 basehttp 12248 15620 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-08-19 22:57:44,768 basehttp 12248 15692 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-08-19 22:57:44,768 basehttp 12248 15776 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-08-19 22:57:50,878 basehttp 12248 15776 "GET /admin/auth/group/ HTTP/1.1" 200 7783
+INFO 2024-08-19 22:57:50,896 basehttp 12248 15776 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 22:57:53,977 basehttp 12248 15776 "GET /admin/auth/user/ HTTP/1.1" 200 11914
+INFO 2024-08-19 22:57:53,994 basehttp 12248 15776 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:07:25,735 basehttp 12248 6668 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 24812
+INFO 2024-08-19 23:07:25,754 basehttp 12248 12544 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-08-19 23:07:25,756 basehttp 12248 6668 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-08-19 23:07:25,757 basehttp 12248 12700 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-08-19 23:07:25,757 basehttp 12248 10992 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-08-19 23:07:25,759 basehttp 12248 1200 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2024-08-19 23:07:25,762 basehttp 12248 12700 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-08-19 23:07:25,762 basehttp 12248 15808 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:07:25,762 basehttp 12248 1200 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-08-19 23:07:25,766 basehttp 12248 1200 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-08-19 23:07:25,813 basehttp 12248 1200 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-08-19 23:07:25,813 basehttp 12248 15808 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-08-19 23:07:25,814 basehttp 12248 10992 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-08-19 23:07:25,814 basehttp 12248 12700 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-08-19 23:07:25,814 basehttp 12248 6668 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-08-19 23:07:45,990 basehttp 12248 6668 "GET /admin/auth/user/ HTTP/1.1" 200 11914
+INFO 2024-08-19 23:07:51,672 basehttp 12248 6668 "GET /admin/auth/user/add/ HTTP/1.1" 200 11238
+INFO 2024-08-19 23:07:51,692 basehttp 12248 6668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:08:53,446 basehttp 12248 6668 "POST /admin/auth/user/add/ HTTP/1.1" 200 11510
+INFO 2024-08-19 23:08:53,465 basehttp 12248 6668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:09:27,294 basehttp 12248 6668 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-08-19 23:09:27,315 basehttp 12248 6668 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25030
+INFO 2024-08-19 23:09:27,335 basehttp 12248 6668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:11:42,942 basehttp 12248 6668 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-08-19 23:11:42,955 basehttp 12248 6668 "GET /admin/auth/user/ HTTP/1.1" 200 12638
+INFO 2024-08-19 23:11:42,977 basehttp 12248 6668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:11:50,007 basehttp 12248 6668 "GET /admin/auth/group/ HTTP/1.1" 200 7783
+INFO 2024-08-19 23:11:50,029 basehttp 12248 6668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:11:55,699 basehttp 12248 6668 "GET /admin/auth/group/add/ HTTP/1.1" 200 14169
+INFO 2024-08-19 23:11:55,717 basehttp 12248 6668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:12:57,172 basehttp 12248 6668 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-08-19 23:12:57,183 basehttp 12248 6668 "GET /admin/auth/group/ HTTP/1.1" 200 9518
+INFO 2024-08-19 23:12:57,204 basehttp 12248 6668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:12:59,389 basehttp 12248 6668 "GET /admin/auth/user/ HTTP/1.1" 200 12724
+INFO 2024-08-19 23:12:59,408 basehttp 12248 6668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:13:12,303 basehttp 12248 6668 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 24797
+INFO 2024-08-19 23:13:12,324 basehttp 12248 6668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:13:26,952 basehttp 12248 6668 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-08-19 23:13:26,966 basehttp 12248 6668 "GET /admin/auth/user/ HTTP/1.1" 200 12944
+INFO 2024-08-19 23:13:26,989 basehttp 12248 6668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:13:39,394 basehttp 12248 6668 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-08-19 23:13:42,789 basehttp 12248 6668 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-08-19 23:13:42,797 basehttp 12248 6668 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-08-19 23:14:03,591 basehttp 12248 6668 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-08-19 23:14:03,600 basehttp 12248 6668 "GET /admin/ HTTP/1.1" 200 4890
+INFO 2024-08-19 23:23:45,457 autoreload 3228 11340 Watching for file changes with StatReloader
+INFO 2024-08-19 23:23:53,979 basehttp 3228 4820 "GET /admin/ HTTP/1.1" 200 4890
+INFO 2024-08-19 23:23:59,140 basehttp 3228 4820 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-08-19 23:24:01,915 basehttp 3228 4820 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-08-19 23:24:01,925 basehttp 3228 4820 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-08-19 23:24:15,356 basehttp 3228 4820 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-08-19 23:24:15,366 basehttp 3228 4820 "GET /admin/ HTTP/1.1" 200 8596
+INFO 2024-08-19 23:43:59,408 autoreload 3228 11340 D:\GeekBrains\My_graduation_project_GB\recipesbook\adminapp\admin.py changed, reloading.
+INFO 2024-08-19 23:43:59,854 autoreload 12012 13788 Watching for file changes with StatReloader
+INFO 2024-08-19 23:48:37,847 autoreload 12012 13788 D:\GeekBrains\My_graduation_project_GB\recipesbook\tmpltapp\admin.py changed, reloading.
+INFO 2024-08-19 23:48:38,220 autoreload 15300 184 Watching for file changes with StatReloader
+INFO 2024-08-19 23:48:52,810 basehttp 15300 2784 "GET /admin/ HTTP/1.1" 200 9731
+INFO 2024-08-19 23:52:45,666 basehttp 15300 2784 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-08-19 23:52:47,619 basehttp 15300 2784 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-08-19 23:52:47,633 basehttp 15300 2784 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-08-19 23:52:58,575 basehttp 15300 2784 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-08-19 23:52:58,586 basehttp 15300 2784 "GET /admin/ HTTP/1.1" 200 5443
+INFO 2024-08-19 23:53:19,794 basehttp 15300 2784 "GET /admin/tmpltapp/post/ HTTP/1.1" 200 17719
+INFO 2024-08-19 23:53:25,844 basehttp 15300 2784 "GET /admin/tmpltapp/post/94/change/ HTTP/1.1" 200 10645
+INFO 2024-08-19 23:53:25,871 basehttp 15300 2784 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:53:29,379 basehttp 15300 2784 "GET /admin/tmpltapp/post/ HTTP/1.1" 200 17719
+INFO 2024-08-19 23:53:34,828 basehttp 15300 2784 "GET /admin/tmpltapp/post/100/change/ HTTP/1.1" 200 10644
+INFO 2024-08-19 23:53:34,850 basehttp 15300 2784 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:53:40,813 basehttp 15300 2784 "POST /admin/tmpltapp/post/100/change/ HTTP/1.1" 302 0
+INFO 2024-08-19 23:53:40,830 basehttp 15300 2784 "GET /admin/tmpltapp/post/ HTTP/1.1" 200 17938
+INFO 2024-08-19 23:54:03,590 basehttp 15300 2784 "POST /admin/logout/ HTTP/1.1" 200 3817
+INFO 2024-08-19 23:54:05,280 basehttp 15300 2784 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-08-19 23:54:05,287 basehttp 15300 2784 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-08-19 23:54:11,551 basehttp 15300 2784 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-08-19 23:54:11,561 basehttp 15300 2784 "GET /admin/ HTTP/1.1" 200 9731
+INFO 2024-08-19 23:54:14,138 basehttp 15300 2784 "GET /admin/tmpltapp/post/ HTTP/1.1" 200 45007
+INFO 2024-08-19 23:54:14,158 basehttp 15300 2784 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:54:16,112 basehttp 15300 2784 "GET /admin/tmpltapp/post/100/change/ HTTP/1.1" 200 13878
+INFO 2024-08-19 23:54:16,133 basehttp 15300 2784 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-19 23:54:23,078 basehttp 15300 2784 "GET /admin/ HTTP/1.1" 200 9731
+INFO 2024-08-19 23:54:33,710 basehttp 15300 2784 "GET /admin/adminapp/category/ HTTP/1.1" 200 9148
+INFO 2024-08-19 23:54:33,729 basehttp 15300 2784 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
