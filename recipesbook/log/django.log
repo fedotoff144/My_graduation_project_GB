@@ -206,3 +206,304 @@ INFO 2024-08-19 23:54:16,133 basehttp 15300 2784 "GET /admin/jsi18n/ HTTP/1.1" 2
 INFO 2024-08-19 23:54:23,078 basehttp 15300 2784 "GET /admin/ HTTP/1.1" 200 9731
 INFO 2024-08-19 23:54:33,710 basehttp 15300 2784 "GET /admin/adminapp/category/ HTTP/1.1" 200 9148
 INFO 2024-08-19 23:54:33,729 basehttp 15300 2784 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:07:52,327 autoreload 12504 15676 Watching for file changes with StatReloader
+INFO 2024-08-21 22:07:58,852 basehttp 12504 18312 "GET /admin/adminapp/category/ HTTP/1.1" 200 9148
+INFO 2024-08-21 22:07:58,881 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:08:01,248 basehttp 12504 18312 "GET /admin/adminapp/category/add/ HTTP/1.1" 200 9989
+INFO 2024-08-21 22:08:01,270 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:08:38,670 basehttp 12504 18312 "POST /admin/adminapp/category/add/ HTTP/1.1" 302 0
+INFO 2024-08-21 22:08:38,685 basehttp 12504 18312 "GET /admin/adminapp/category/ HTTP/1.1" 200 10867
+INFO 2024-08-21 22:08:38,704 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:08:43,511 basehttp 12504 18312 "GET /admin/adminapp/category/add/ HTTP/1.1" 200 9989
+INFO 2024-08-21 22:08:43,532 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:09:07,923 basehttp 12504 18312 "POST /admin/adminapp/category/add/ HTTP/1.1" 302 0
+INFO 2024-08-21 22:09:07,933 basehttp 12504 18312 "GET /admin/adminapp/category/ HTTP/1.1" 200 11193
+INFO 2024-08-21 22:09:07,952 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:09:33,972 basehttp 12504 18312 "GET /admin/adminapp/product/ HTTP/1.1" 200 9141
+INFO 2024-08-21 22:09:33,993 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:09:35,742 basehttp 12504 18312 "GET /admin/adminapp/product/add/ HTTP/1.1" 200 11852
+INFO 2024-08-21 22:09:35,760 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:09:56,913 basehttp 12504 18312 "POST /admin/adminapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-08-21 22:09:56,924 basehttp 12504 18312 "GET /admin/adminapp/product/add/ HTTP/1.1" 200 12135
+INFO 2024-08-21 22:09:56,945 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:10:51,465 basehttp 12504 18312 "POST /admin/adminapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-08-21 22:10:51,477 basehttp 12504 18312 "GET /admin/adminapp/product/add/ HTTP/1.1" 200 12143
+INFO 2024-08-21 22:10:51,494 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:11:10,745 basehttp 12504 18312 "GET /admin/adminapp/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4446
+INFO 2024-08-21 22:11:10,762 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:11:31,581 basehttp 12504 18312 "POST /admin/adminapp/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 366
+INFO 2024-08-21 22:11:31,626 basehttp 12504 18312 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+INFO 2024-08-21 22:11:46,952 basehttp 12504 18312 "GET /admin/adminapp/category/3/change/?_to_field=id&_popup=1 HTTP/1.1" 200 4426
+INFO 2024-08-21 22:11:46,968 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:11:52,598 basehttp 12504 18312 "POST /admin/adminapp/category/3/change/?_to_field=id&_popup=1 HTTP/1.1" 200 444
+INFO 2024-08-21 22:12:00,575 basehttp 12504 18312 "POST /admin/adminapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-08-21 22:12:00,587 basehttp 12504 18312 "GET /admin/adminapp/product/ HTTP/1.1" 200 11528
+INFO 2024-08-21 22:12:00,607 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:12:05,232 basehttp 12504 18312 "GET /admin/adminapp/product/1/change/ HTTP/1.1" 200 12108
+INFO 2024-08-21 22:12:05,252 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:12:07,696 basehttp 12504 18312 "GET /admin/adminapp/category/1/change/?_to_field=id&_popup=1 HTTP/1.1" 200 4423
+INFO 2024-08-21 22:12:07,714 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:12:12,579 basehttp 12504 18312 "POST /admin/adminapp/category/1/change/?_to_field=id&_popup=1 HTTP/1.1" 200 443
+INFO 2024-08-21 22:12:17,121 basehttp 12504 18312 "POST /admin/adminapp/product/1/change/ HTTP/1.1" 302 0
+INFO 2024-08-21 22:12:17,141 basehttp 12504 18312 "GET /admin/adminapp/product/ HTTP/1.1" 200 11532
+INFO 2024-08-21 22:12:17,165 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:12:20,929 basehttp 12504 18312 "GET /admin/adminapp/category/ HTTP/1.1" 200 11310
+INFO 2024-08-21 22:12:20,952 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:12:22,645 basehttp 12504 18312 "GET /admin/adminapp/category/2/change/ HTTP/1.1" 200 10201
+INFO 2024-08-21 22:12:22,676 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:12:26,768 basehttp 12504 18312 "POST /admin/adminapp/category/2/change/ HTTP/1.1" 302 0
+INFO 2024-08-21 22:12:26,781 basehttp 12504 18312 "GET /admin/adminapp/category/ HTTP/1.1" 200 11522
+INFO 2024-08-21 22:12:26,800 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:12:40,651 basehttp 12504 18312 "GET /admin/adminapp/product/add/ HTTP/1.1" 200 11888
+INFO 2024-08-21 22:12:40,671 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:13:07,105 basehttp 12504 18312 "POST /admin/adminapp/product/add/ HTTP/1.1" 302 0
+INFO 2024-08-21 22:13:07,119 basehttp 12504 18312 "GET /admin/adminapp/product/ HTTP/1.1" 200 11861
+INFO 2024-08-21 22:13:07,137 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:13:34,161 basehttp 12504 18312 "GET /admin/adminapp/product/1/change/ HTTP/1.1" 200 12108
+INFO 2024-08-21 22:13:34,187 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:13:41,899 basehttp 12504 18312 "GET /admin/adminapp/product/1/delete/ HTTP/1.1" 200 9199
+INFO 2024-08-21 22:13:41,979 basehttp 12504 18312 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-08-21 22:13:59,823 basehttp 12504 18312 "POST /admin/adminapp/product/1/delete/ HTTP/1.1" 302 0
+INFO 2024-08-21 22:13:59,843 basehttp 12504 18312 "GET /admin/adminapp/product/ HTTP/1.1" 200 11484
+INFO 2024-08-21 22:13:59,868 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:15:34,225 basehttp 12504 18312 "GET /admin/adminapp/product/ HTTP/1.1" 200 11322
+INFO 2024-08-21 22:15:34,242 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:15:36,077 basehttp 12504 18312 "GET /admin/adminapp/product/4/change/ HTTP/1.1" 200 12112
+INFO 2024-08-21 22:15:36,097 basehttp 12504 18312 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:20:51,451 autoreload 12504 15676 D:\GeekBrains\My_graduation_project_GB\recipesbook\adminapp\models.py changed, reloading.
+INFO 2024-08-21 22:20:51,826 autoreload 16692 15440 Watching for file changes with StatReloader
+INFO 2024-08-21 22:32:47,295 basehttp 16692 17380 "GET /admin/adminapp/category/ HTTP/1.1" 200 11310
+INFO 2024-08-21 22:32:47,313 basehttp 16692 17380 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+ERROR 2024-08-21 22:32:49,022 log 16692 17380 Internal Server Error: /admin/adminapp/product/
+Traceback (most recent call last):
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: adminapp_product.description
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\contrib\admin\options.py", line 2124, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: adminapp_product.description
+ERROR 2024-08-21 22:32:49,029 basehttp 16692 17380 "GET /admin/adminapp/product/ HTTP/1.1" 500 180724
+INFO 2024-08-21 22:32:52,507 basehttp 16692 17380 "GET /admin/adminapp/category/ HTTP/1.1" 200 11310
+INFO 2024-08-21 22:32:54,477 basehttp 16692 17380 "GET /admin/adminapp/category/ HTTP/1.1" 200 11310
+INFO 2024-08-21 22:32:54,495 basehttp 16692 17380 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:32:58,585 basehttp 16692 17380 "GET /admin/tmpltapp/author/ HTTP/1.1" 200 14583
+INFO 2024-08-21 22:32:58,603 basehttp 16692 17380 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:33:00,662 basehttp 16692 17380 "GET /admin/tmpltapp/post/ HTTP/1.1" 200 45007
+INFO 2024-08-21 22:33:00,684 basehttp 16692 17380 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:33:03,238 basehttp 16692 17380 "GET /admin/adminapp/category/ HTTP/1.1" 200 11310
+INFO 2024-08-21 22:33:03,257 basehttp 16692 17380 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+ERROR 2024-08-21 22:33:04,512 log 16692 17380 Internal Server Error: /admin/adminapp/product/
+Traceback (most recent call last):
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such column: adminapp_product.description
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\contrib\admin\options.py", line 2124, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+                                                           ^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GeekBrains\My_graduation_project_GB\venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such column: adminapp_product.description
+ERROR 2024-08-21 22:33:04,518 basehttp 16692 17380 "GET /admin/adminapp/product/ HTTP/1.1" 500 180724
+INFO 2024-08-21 22:38:28,535 autoreload 18360 15820 Watching for file changes with StatReloader
+INFO 2024-08-21 22:38:36,186 basehttp 18360 21116 "GET /admin/adminapp/product/ HTTP/1.1" 200 11322
+INFO 2024-08-21 22:38:36,207 basehttp 18360 21116 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:38:51,611 basehttp 18360 21116 "GET /admin/adminapp/product/ HTTP/1.1" 200 11322
+INFO 2024-08-21 22:38:51,629 basehttp 18360 21116 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:38:54,666 basehttp 18360 21116 "GET /admin/adminapp/product/4/change/ HTTP/1.1" 200 14636
+INFO 2024-08-21 22:38:54,686 basehttp 18360 21116 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:39:31,939 basehttp 18360 21116 "POST /admin/adminapp/product/4/change/ HTTP/1.1" 302 0
+INFO 2024-08-21 22:39:31,950 basehttp 18360 21116 "GET /admin/adminapp/product/ HTTP/1.1" 200 11535
+INFO 2024-08-21 22:39:31,970 basehttp 18360 21116 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:39:34,082 basehttp 18360 21116 "GET /admin/adminapp/product/4/change/ HTTP/1.1" 200 14636
+INFO 2024-08-21 22:39:34,102 basehttp 18360 21116 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:39:38,142 basehttp 18360 21116 "GET /admin/adminapp/product/4/history/ HTTP/1.1" 200 8611
+INFO 2024-08-21 22:39:41,812 basehttp 18360 21116 "GET /admin/adminapp/product/4/change/ HTTP/1.1" 200 14636
+INFO 2024-08-21 22:39:42,939 basehttp 18360 21116 "GET /admin/adminapp/product/ HTTP/1.1" 200 11322
+INFO 2024-08-21 22:40:29,778 autoreload 18360 15820 D:\GeekBrains\My_graduation_project_GB\recipesbook\adminapp\admin.py changed, reloading.
+INFO 2024-08-21 22:40:30,130 autoreload 19620 15232 Watching for file changes with StatReloader
+INFO 2024-08-21 22:41:25,440 autoreload 19620 15232 D:\GeekBrains\My_graduation_project_GB\recipesbook\adminapp\admin.py changed, reloading.
+INFO 2024-08-21 22:41:25,780 autoreload 10492 18972 Watching for file changes with StatReloader
+INFO 2024-08-21 22:43:33,753 autoreload 20276 13728 Watching for file changes with StatReloader
+INFO 2024-08-21 22:43:53,018 basehttp 20276 20196 "GET /admin/adminapp/product/4/change/ HTTP/1.1" 200 14636
+INFO 2024-08-21 22:43:53,037 basehttp 20276 20196 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 22:44:51,700 basehttp 20276 20196 "GET /admin/adminapp/product/ HTTP/1.1" 200 11839
+INFO 2024-08-21 22:59:28,446 autoreload 20276 13728 D:\GeekBrains\My_graduation_project_GB\recipesbook\adminapp\admin.py changed, reloading.
+INFO 2024-08-21 22:59:28,797 autoreload 19376 12608 Watching for file changes with StatReloader
+INFO 2024-08-21 23:00:22,885 autoreload 19376 12608 D:\GeekBrains\My_graduation_project_GB\recipesbook\adminapp\admin.py changed, reloading.
+INFO 2024-08-21 23:00:23,246 autoreload 5940 8132 Watching for file changes with StatReloader
+INFO 2024-08-21 23:00:41,528 basehttp 5940 18160 "GET /admin/adminapp/product/ HTTP/1.1" 200 14537
+INFO 2024-08-21 23:00:41,549 basehttp 5940 18160 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 23:10:06,171 basehttp 5940 4276 "GET /admin/adminapp/product/ HTTP/1.1" 200 14537
+INFO 2024-08-21 23:10:06,200 basehttp 5940 4276 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 23:14:25,288 autoreload 5940 8132 D:\GeekBrains\My_graduation_project_GB\recipesbook\adminapp\admin.py changed, reloading.
+INFO 2024-08-21 23:14:25,791 autoreload 20368 17416 Watching for file changes with StatReloader
+INFO 2024-08-21 23:15:53,272 basehttp 20368 15684 "GET /admin/adminapp/product/ HTTP/1.1" 200 14537
+INFO 2024-08-21 23:15:53,290 basehttp 20368 15684 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 23:16:16,984 basehttp 20368 15684 "GET /admin/adminapp/product/ HTTP/1.1" 200 14537
+INFO 2024-08-21 23:16:17,003 basehttp 20368 15684 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 23:17:21,970 autoreload 20368 17416 D:\GeekBrains\My_graduation_project_GB\recipesbook\adminapp\admin.py changed, reloading.
+INFO 2024-08-21 23:17:22,353 autoreload 16888 8548 Watching for file changes with StatReloader
+INFO 2024-08-21 23:17:26,993 basehttp 16888 15920 "GET /admin/adminapp/product/ HTTP/1.1" 200 14600
+INFO 2024-08-21 23:17:27,010 basehttp 16888 15920 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 23:43:42,951 basehttp 16888 17776 "GET /admin/adminapp/product/4/change/ HTTP/1.1" 200 14636
+INFO 2024-08-21 23:43:42,969 basehttp 16888 17776 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 23:43:51,109 basehttp 16888 17776 "POST /admin/adminapp/product/4/change/ HTTP/1.1" 302 0
+INFO 2024-08-21 23:43:51,122 basehttp 16888 17776 "GET /admin/adminapp/product/ HTTP/1.1" 200 14815
+INFO 2024-08-21 23:43:51,142 basehttp 16888 17776 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 23:43:59,428 basehttp 16888 17776 "POST /admin/adminapp/product/ HTTP/1.1" 302 0
+INFO 2024-08-21 23:43:59,440 basehttp 16888 17776 "GET /admin/adminapp/product/ HTTP/1.1" 200 14600
+INFO 2024-08-21 23:43:59,459 basehttp 16888 17776 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 23:46:28,037 basehttp 16888 17776 "GET /admin/adminapp/product/4/change/ HTTP/1.1" 200 14636
+INFO 2024-08-21 23:46:28,056 basehttp 16888 17776 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 23:49:38,140 autoreload 16888 8548 D:\GeekBrains\My_graduation_project_GB\recipesbook\adminapp\admin.py changed, reloading.
+INFO 2024-08-21 23:49:38,657 autoreload 20308 10952 Watching for file changes with StatReloader
+INFO 2024-08-21 23:50:52,556 basehttp 20308 21248 "GET /admin/adminapp/product/4/change/ HTTP/1.1" 200 13857
+INFO 2024-08-21 23:50:52,574 basehttp 20308 21248 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-21 23:54:45,733 basehttp 20308 21248 "GET /admin/adminapp/product/4/change/ HTTP/1.1" 200 13857
+INFO 2024-08-21 23:54:45,750 basehttp 20308 21248 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-22 00:01:39,149 autoreload 20308 10952 D:\GeekBrains\My_graduation_project_GB\recipesbook\adminapp\admin.py changed, reloading.
+INFO 2024-08-22 00:01:39,528 autoreload 6268 18080 Watching for file changes with StatReloader
+INFO 2024-08-22 00:08:02,860 autoreload 6268 18080 D:\GeekBrains\My_graduation_project_GB\recipesbook\adminapp\admin.py changed, reloading.
+INFO 2024-08-22 00:08:03,229 autoreload 11632 20048 Watching for file changes with StatReloader
+INFO 2024-08-22 00:08:40,151 autoreload 11632 20048 D:\GeekBrains\My_graduation_project_GB\recipesbook\adminapp\admin.py changed, reloading.
+INFO 2024-08-22 00:08:40,506 autoreload 16420 16848 Watching for file changes with StatReloader
+INFO 2024-08-22 00:08:51,897 autoreload 16420 16848 D:\GeekBrains\My_graduation_project_GB\recipesbook\adminapp\admin.py changed, reloading.
+INFO 2024-08-22 00:08:52,276 autoreload 16016 16184 Watching for file changes with StatReloader
+INFO 2024-08-22 00:09:33,190 autoreload 16016 16184 D:\GeekBrains\My_graduation_project_GB\recipesbook\adminapp\admin.py changed, reloading.
+INFO 2024-08-22 00:09:33,544 autoreload 956 15080 Watching for file changes with StatReloader
+INFO 2024-08-22 00:10:46,372 basehttp 956 21288 "GET /admin/adminapp/product/4/change/ HTTP/1.1" 200 15739
+INFO 2024-08-22 00:10:46,412 basehttp 956 21288 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-08-22 00:10:46,477 basehttp 956 21296 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
